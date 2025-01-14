@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("Background.jpg");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#new-btn{
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 6px 12px 6px 12px;
+  border: 3px solid transparent;
+  border-radius: 1rem;
+  background-color: #da1c4d;
+}
+
+.topic{
+  margin-top: 0.85rem;
+  padding: 0px 32px 0px 32px;
+  font-size: 3rem;
+  font-family: Rockwell;
+  font-weight: 500;
+  background-color: #c6dce4;
+  border: 2px solid rgba(7,42,64,1);
+  border-radius: 0.85rem;
+
+}
+
+.container{
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  border: 10px solid rgb(18,228,233);
+  background-color: rgba(7,42,64,1);
+  height: 72vh;
+  width: 72vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 72vmin;
+  width: 72vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.box{
+  height: 24vmin;
+  width: 24vmin;
+  background-color: transparent;
+  color: black;
+  font-size: 16vmin;
+  border: none;
+}
+
+#box1{
+  border-right: 10px solid rgb(18,228,233);
+  border-bottom: 10px solid rgb(18,228,233);
+}
+
+#box2{
+  border-bottom: 10px solid rgb(18,228,233);
+}
+
+#box3{
+  border-left: 10px solid rgb(18,228,233);
+  border-bottom: 10px solid rgb(18,228,233);
+}
+
+#box4{
+  border-right: 10px solid rgb(18,228,233);
+}
+
+#box6{
+  border-left: 10px solid rgb(18,228,233);
+}
+
+#box7{
+  border-right: 10px solid rgb(18,228,233);
+  border-top: 10px solid rgb(18,228,233);
+}
+
+#box8{
+  border-top: 10px solid rgb(18,228,233);
+}
+
+#box9{
+  border-left: 10px solid rgb(18,228,233);
+  border-top: 10px solid rgb(18,228,233);
+}
+
+#reset-btn{
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 4px 12px 4px 12px;
+  border: 3px solid transparent;
+  border-radius: 0.85rem;
+  background-color: #da1c4d;
+  color: #fff;
+}
+
+
+.msg-container{
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
